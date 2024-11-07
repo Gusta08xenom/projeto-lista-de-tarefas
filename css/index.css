@@ -1,6 +1,5 @@
-
 *{
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+
 margin: 0;
     padding: 0;
     border: 0;
@@ -12,15 +11,14 @@ margin: 0;
 }
 :root{
     --pink: #ED107A;
-    --white: #FFFFFF;
-    --half-white: #ffffff80;
-    --half-half-white
+    --white: hsl( 0, 0%, 100%);
+    --half-half-white: #ffffff50;
+    --half-white: #FFFFFF80;
 }
 
 header{
     background-color: var(--pink);
-}
-button{
+
     background-color: var(--pink);
     padding: 16px 100px;
     display: flex;
@@ -44,7 +42,7 @@ button{
             cursor: pointer;
             transition-duration: 200ms;
             &:hover{
-                background-color: var();
+                background-color: var(--half-half-white);
             }
         }
     }
@@ -57,7 +55,7 @@ button{
         border-radius: 5px;
         padding-left: 10px;
         &::placeholder{
-            color: var(--half-half-white);
+            color: var(--half-white);
         }
     }
 }
